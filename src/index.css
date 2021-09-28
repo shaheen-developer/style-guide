@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ant-layout-content{
+  background-color:#fff;
+}
+.ant-layout{
+  background-color: #fff !important;
+}
+.ant-menu ant-menu-root ant-menu-inline ant-menu-light{
+  height:100%;
+  width:229px;
+}
+
+h1.ant-typography, .ant-typography + h2.ant-typography, .ant-typography + h3.ant-typography, .ant-typography + h4.ant-typography, .ant-typography + h5.ant-typography {
+ 
+  font-family: Libre Baskerville,serif;
+}
+.ant-layout-sider-children{
+  height:100%;
+  background-color: #ffff;
+}
+
+  .container { 
+    height: 150%;
+    position: relative;
+    border: dashed grey;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .click{
+    float:right;
+   
+    margin-top:10px; 
+    height: 20px; 
+    text-align: center; 
+    font-size: 13px; 
+    padding: 0px; 
+    }
+  .control-label{
+    float:left;
+    margin-top: 10px;
+  }
+  .ant-form-item-control-input{
+    width:170%;
+  }
+  .anticon anticon-close-circle{
+    margin-top:40px;
+  }
+  textarea.ant-input{
+  background-color:#efefef ;
+}
+.homediv{
+  margin-top: 150px;
+  width: 450px;
+  text-align: justify;
+}
+.sb-header{
+  background-color: red;
+}
+.ant-picker{
+  width:250px;
+}
