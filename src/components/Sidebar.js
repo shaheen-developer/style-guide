@@ -11,7 +11,7 @@ import VscodeSnippet from '../pages/VscodeSnippet';
 import {TypographyRS,ButtonRC,Icons,InputRC,CheckboxRC} from '../pages/General';
 import {TextboxRC,RadioButtons,DatepickerRC,ModalRC,TableRC,PaginationRC,TabsRC, AlertRC,AvatarRC,DropdownRC,MenuRC,CardRC,EmptystateRC,DrawerRC,FeedbackRC,TagRC,StepRC,ToastAlertRC,UploadRC,TooltipRC } from '../pages/ReactComponent';
 import {Link } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { Header, Footer, Sider, Content } = Layout;
