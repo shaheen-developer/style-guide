@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important ;
 }
 
 .ant-layout-content{
@@ -21,12 +21,14 @@ h1.ant-typography, .ant-typography + h2.ant-typography, .ant-typography + h3.ant
 .ant-layout-sider-children{
   height:100%;
   background-color: #ffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
   .container { 
     height: 150%;
     position: relative;
-    border: dashed grey;
+    border: 5px dashed #E0E0E0		;
   }
   
   .center {
@@ -69,4 +71,57 @@ h1.ant-typography, .ant-typography + h2.ant-typography, .ant-typography + h3.ant
 }
 .ant-picker{
   width:250px;
+}
+.ant-menu-sub.ant-menu-inline {
+  border: 0;
+  height: 600px;
+
+}
+.ant-pagination-item{
+  font-size: 13px;;
+  border:none !important;
+}
+.ant-pagination-item-active{
+  border:1px solid #7db745 !important;
+}
+.ant-alert-with-description .ant-alert-message{
+  font-size: 13px;
+  font-weight: bold;
+}
+.ant-alert-description{
+  font-size: 14px !important;
+}
+.feddback-container{
+  display:block; 
+  width:100%;
+  margin-top: 50px !important;
+}
+.feedback-container1{
+  width:50%; float: left; display: inline-block;
+}
+.feedback-container2{
+  width:50%; float: left; display: inline-block;
+}
+.ant-result-title{
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.ant-result-subtitle{
+  font-size: 13px !important;
+}
+.steps-content {
+  min-height: 200px;
+  margin-top: 16px; 
+  padding-top: 80px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+.ant-upload-hint{
+  font-size: 12px !important;
 }

@@ -12,10 +12,10 @@ function SBheader(props) {
             <div className="control-label"> 
       <Title level={2} style={{fontSize:35,fontWeight:400}}>{props.sbtitle}
      </Title></div>
-    [ <div  className="click">     
+     <div  className="click">     
     <Button type="primary" size ="normal" icon={<DownloadOutlined /> }  style={{ background: "#7db745"}}> 
           Download Snippets
-        </Button></div>]
+        </Button></div>
     <br/> <br/> <br/> 
         </div>
     );

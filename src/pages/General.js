@@ -68,13 +68,10 @@ export const Icons = () => {
 export const InputRC = () => {
   return (
     <>
-  <SBheader sbtitle="Input" />      <div className="container">
+  <SBheader sbtitle="Input" />    
+    <div className="container">
         <div className="center">
-
           <Form {...formItemLayout}>
-
-        
-        
           <Form.Item>
               <Input placeholder="Basic usage" />
             </Form.Item>
